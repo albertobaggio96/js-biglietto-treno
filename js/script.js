@@ -3,7 +3,7 @@ let userKm= parseInt(prompt("Quanti km vuoi percorrere?"));
 let userAge= parseInt(prompt("Quanti anni hai?"));
 
 if ((isNaN(userKm)) || (isNaN(userAge))){
-document.getElementById("output").innerHTML= `I dati inseriti non sono corretti, per favore ricarica la pagina!`;
+  document.getElementById("output").innerHTML= `I dati inseriti non sono corretti, per favore ricarica la pagina ed usa solo numeri arabi!`;
 }else{
   
   const euroKm= 0.21;
