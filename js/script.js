@@ -1,13 +1,13 @@
 let userKm= parseInt(prompt("Quanti km vuoi percorrere?"));
 
 if (isNaN(userKm)){
-  userKm = parseInt(prompt ("Per favore, indicare i km usa solo numeri arabi, Grazie"));
+  userKm = parseInt(prompt ("Per favore, per indicare i km usa solo numeri arabi, Grazie"));
 }
 
 let userAge= parseInt(prompt("Quanti anni hai?"));
 
 if (isNaN(userAge)){
-  userKm = parseInt(prompt ("Per favore, indicare la tua età usa solo numeri arabi, Grazie"));
+  userKm = parseInt(prompt ("Per favore, per indicare la tua età usa solo numeri arabi, Grazie"));
 }
 
 const euroKm= 0.12;
