@@ -17,7 +17,6 @@ let ticketCost= userKm * euroKm;
 console.log("Prezzo intero");
 console.log(ticketCost);
 
-
 if (userAge < 18){
   console.log("Prezzo per minorenni")
   ticketCost= ticketCost * 80 / 100;
@@ -29,4 +28,4 @@ if (userAge < 18){
 }
 console.log(ticketCost);
 
-document.getElementById("output").innerHTML= `Il tuo biglietto costa ${ticketCost}&euro;`;
+document.getElementById("output").innerHTML= `Il tuo biglietto costa ${ticketCost.toFixed(2)}&euro;`;
